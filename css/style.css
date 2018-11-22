@@ -154,7 +154,7 @@ section #prize .won{
     border:2px solid white;
     border-radius: 30px;
 }
-.won p{
+section #prize .won p{
     margin-top: 30px;
     color: #000000;
     font-family: 'Playfair Display', serif;
@@ -315,12 +315,14 @@ footer .five p{
     float:left;
     font-family: sans-serif;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 375px) {
     header{
         width:100%;
     }
         header nav img{
         width: 60%;
+            margin-left:20%;
+            margin-right:20%;
     }
     header nav ul li a{
         width:100%;
@@ -397,7 +399,7 @@ footer .five p{
         }
         section #prize .won{
             width:80%;
-            height:760px ;
+            height:790px ;
               margin-left: 10%;
               margin-right: 10%;
               float: left;
@@ -410,6 +412,7 @@ footer .five p{
         }
         section #prize .work{
             width:80%;
+            height:350px;
               margin-left: 10%;
               margin-right: 10%;
               float: left;
@@ -426,7 +429,7 @@ footer .five p{
         }
         section #prize .inplant{
             width:80%;
-            height: 360px;
+            height: 380px;
               margin-left: 10%;
               margin-right: 10%;
               float: left;
@@ -443,7 +446,7 @@ footer .five p{
         }
         section #prize .cell{
             width:80%;
-            height: 250px;
+            height: 270px;
               margin-left: 10%;
               margin-right: 10%;
               float: left;
@@ -460,206 +463,7 @@ footer .five p{
         }
         section #prize .event{
             width:80%;
-            height: 250px;
-              margin-left: 10%;
-              margin-right: 10%;
-              float: left;
-              margin-bottom: 10px;
-        }
-        section #prize .event p{
-            width:100%;
-            text-align: center;
-            font-size: 14px;
-        }
-        section #prize .event h2{
-            width:100%;
-            float: left;
-        }
-        footer #contact{
-            width:100%;
-            }
-        footer .one{
-          width:10%;
-          margin-left: 20%;
-          margin-right: 10%;
-          float: left;  
-        }
-        footer .two{
-            width:10%;
-          margin-left: 10%;
-          margin-right: 10%;
-          float: left;
-        }
-        footer .three{
-            width:10%;
-          margin-left: 10%;
-          margin-right: 10%;
-          float: left;
-        }
-        footer .four img{
-           display: none;
-        }
-        footer .four p{
-            width:100%;
-            text-align:center;
-           
-        }
-        footer .five img{
-            display: none;
-        }
-        footer .five p{
-            width:100%;
-            text-align: center;
-           }
-}
-@media only screen and (max-width: 769px) {
-    header{
-        width:100%;
-        border-bottom: none;
-    }
-        header nav img{
-        width: 50%;
-    
-    }
-    header nav ul li a{
-        width:100%;
-        text-align: center;
-    }
-    section #gayu{
-        width: 100%;
-    }
-    section #gayu h2{
-        width:100%;
-        float: left;
-        margin-top: 40px;
-    }
-    section #gayu img{
-        float: left;
-        width:10%;
-        margin-left: 45%;
-        margin-right: 45%;
-    }
-    section #gayu p{
-    float: left;
-    text-align: center;
-    width:80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    }
-    section #edu{
-    width:100%;
-    }
-    section #edu h2
-    {
-    width:100%;
-    }
-    section #edu .edu1{
-        width:80%;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-    section #edu .edu2{
-        width:80%;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-    section #edu .edu3{
-        width:80%;
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-bottom: 10px;
-    }
-    section #skill{
-        width: 100%;
-    }
-    section #skill h2{
-        width:100%;
-        float: left;
-        }
-        section #skill .s1 {
-              width:80%;
-              margin-left: 10%;
-              margin-right: 10%;
-              margin-bottom: 10px;
-              float: left;
-        }
-        section #skill .s1 p{
-            width:100%;
-            text-align: center;
-        }
-        section #prize{
-            width:100%;
-        }
-        section #prize h2{
-            width:100%;
-        float: left;
-        }
-        section #prize .won{
-            width:80%;
-            height: 650px;
-              margin-left: 10%;
-              margin-right: 10%;
-              float: left;
-              margin-bottom: 10px;
-        }
-        section #prize .won p{
-            width:100%;
-            text-align: center;
-            font-size: 14px;
-        }
-        section #prize .work{
-            width:80%;
-              margin-left: 10%;
-              margin-right: 10%;
-              float: left;
-              margin-bottom: 10px;
-        }
-        section #prize .work p{
-            width:100%;
-            text-align: center;
-            font-size: 14px;
-        }
-        section #prize .work h2{
-            width:100%;
-            float: left;
-        }
-        section #prize .inplant{
-            width:80%;
-            height: 360px;
-              margin-left: 10%;
-              margin-right: 10%;
-              float: left;
-              margin-bottom: 10px;
-        }
-        section #prize .inplant p{
-            width:100%;
-            text-align: center;
-            font-size: 14px;
-        }
-        section #prize .inplant h2{
-            width:100%;
-            float: left;
-        }
-        section #prize .cell{
-            width:80%;
-            height: 250px;
-              margin-left: 10%;
-              margin-right: 10%;
-              float: left;
-              margin-bottom: 10px;
-        }
-        section #prize .cell p{
-            width:100%;
-            text-align: center;
-            font-size: 14px;
-        }
-        section #prize .cell h2{
-            width:100%;
-            float: left;
-        }
-        section #prize .event{
-            width:80%;
-            height: 250px;
+            height: 290px;
               margin-left: 10%;
               margin-right: 10%;
               float: left;
@@ -717,6 +521,8 @@ footer .five p{
     }
         header nav img{
         width: 60%;
+            margin-left:20%;
+            margin-right:20%;
     }
     header nav ul li a{
         width:100%;
@@ -793,7 +599,7 @@ footer .five p{
         }
         section #prize .won{
             width:80%;
-            height:760px ;
+            height:790px ;
               margin-left: 10%;
               margin-right: 10%;
               float: left;
@@ -806,6 +612,7 @@ footer .five p{
         }
         section #prize .work{
             width:80%;
+            height:350px;
               margin-left: 10%;
               margin-right: 10%;
               float: left;
@@ -822,7 +629,7 @@ footer .five p{
         }
         section #prize .inplant{
             width:80%;
-            height: 360px;
+            height: 380px;
               margin-left: 10%;
               margin-right: 10%;
               float: left;
@@ -839,7 +646,7 @@ footer .five p{
         }
         section #prize .cell{
             width:80%;
-            height: 250px;
+            height: 270px;
               margin-left: 10%;
               margin-right: 10%;
               float: left;
@@ -856,7 +663,7 @@ footer .five p{
         }
         section #prize .event{
             width:80%;
-            height: 250px;
+            height: 290px;
               margin-left: 10%;
               margin-right: 10%;
               float: left;
@@ -908,3 +715,205 @@ footer .five p{
             text-align: center;
            }
 }
+@media only screen and (max-width: 240px) {
+    header{
+        width:100%;
+    }
+        header nav img{
+        width: 60%;
+            margin-left:20%;
+            margin-right:20%;
+    }
+    header nav ul li a{
+        width:100%;
+        text-align: center;
+    }
+    section #gayu{
+        width: 100%;
+    }
+    section #gayu h2{
+        width:100%;
+        float: left;
+        margin-top: 40px;
+    }
+    section #gayu img{
+        float: left;
+        margin-top: 3px;
+        margin-left: 145px;
+        width:30%;
+    }
+    section #gayu p{
+    float: left;
+    text-align: center;
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+    section #edu{
+    width:100%;
+    }
+    section #edu h2
+    {
+    width:100%;
+    }
+    section #edu .edu1{
+        width:80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    section #edu .edu2{
+        width:80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    section #edu .edu3{
+        width:80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 10px;
+    }
+    section #skill{
+        width: 100%;
+    }
+    section #skill h2{
+        width:100%;
+        float: left;
+        }
+        section #skill .s1 {
+              width:80%;
+              margin-left: 10%;
+              margin-right: 10%;
+              margin-bottom: 10px;
+              float: left;
+        }
+        section #skill .s1 p{
+            width:100%;
+            text-align: center;
+        }
+        section #prize{
+            width:100%;
+        }
+        section #prize h2{
+            width:100%;
+        float: left;
+        }
+        section #prize .won{
+            width:80%;
+            height:790px ;
+              margin-left: 10%;
+              margin-right: 10%;
+              float: left;
+              margin-bottom: 10px;
+        }
+        section #prize .won p{
+            width:100%;
+            text-align: center;
+            font-size: 14px;
+        }
+        section #prize .work{
+            width:80%;
+            height:350px;
+              margin-left: 10%;
+              margin-right: 10%;
+              float: left;
+              margin-bottom: 10px;
+        }
+        section #prize .work p{
+            width:100%;
+            text-align: center;
+            font-size: 14px;
+        }
+        section #prize .work h2{
+            width:100%;
+            float: left;
+        }
+        section #prize .inplant{
+            width:80%;
+            height: 380px;
+              margin-left: 10%;
+              margin-right: 10%;
+              float: left;
+              margin-bottom: 10px;
+        }
+        section #prize .inplant p{
+            width:100%;
+            text-align: center;
+            font-size: 14px;
+        }
+        section #prize .inplant h2{
+            width:100%;
+            float: left;
+        }
+        section #prize .cell{
+            width:80%;
+            height: 270px;
+              margin-left: 10%;
+              margin-right: 10%;
+              float: left;
+              margin-bottom: 10px;
+        }
+        section #prize .cell p{
+            width:100%;
+            text-align: center;
+            font-size: 14px;
+        }
+        section #prize .cell h2{
+            width:100%;
+            float: left;
+        }
+        section #prize .event{
+            width:80%;
+            height: 290px;
+              margin-left: 10%;
+              margin-right: 10%;
+              float: left;
+              margin-bottom: 10px;
+        }
+        section #prize .event p{
+            width:100%;
+            text-align: center;
+            font-size: 14px;
+        }
+        section #prize .event h2{
+            width:100%;
+            float: left;
+        }
+        footer #contact{
+            width:100%;
+            }
+        footer .one{
+          width:10%;
+          margin-left: 20%;
+          margin-right: 10%;
+          float: left;  
+        }
+        footer .two{
+            width:10%;
+          margin-left: 10%;
+          margin-right: 10%;
+          float: left;
+        }
+        footer .three{
+            width:10%;
+          margin-left: 10%;
+          margin-right: 10%;
+          float: left;
+        }
+        footer .four img{
+           display: none;
+        }
+        footer .four p{
+            width:100%;
+            text-align:center;
+           
+        }
+        footer .five img{
+            display: none;
+        }
+        footer .five p{
+            width:100%;
+            text-align: center;
+           }
+}
+
+
